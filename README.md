@@ -10,16 +10,16 @@ MIA is divided into modules and uses parallel programming to analyze multiple we
 Nuclei Analysis module: differentiates between neuronal and non-neuronal cells.
 Distance Analysis module: performs spatial analysis of cell distribution in the wells.
 
-3. Cellpose
+2. Cellpose
    
 Contains scripts and models for segmentation of stitched wells.
 NetworkDetection: segmentation of stitched wells using a pre-trained model (included). The model allows segmentation of DAPI and AnkG, enabling identification of neurons with axonal initial segments.
 AIS_analysis: MATLAB script for analyzing axonal initial segment properties across the complete well.
 
-5. Diameter_analysis
+3. Diameter_analysis
    
 Contains Python scripts for calculating the diameter of each cell (based on the outputs from the Analysis folder).
 
-7. Stitching
+4. Stitching
    
 Contains ImageJ macros used for stitching tiled images into complete wells.
