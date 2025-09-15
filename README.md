@@ -8,7 +8,8 @@ The repository is organized into four main folders:
 Contains MATLAB scripts for the analysis of stitched wells using the Modular Image Analysis (MIA) framework.
 MIA is divided into modules and uses parallel programming to analyze multiple wells simultaneously.
 Nuclei Analysis module: differentiates between neuronal and non-neuronal cells.
-Distance Analysis module: performs spatial analysis of cell distribution in the wells.
+Distance Analysis module: performs spatial analysis of cell distribution in the wells. 
+The random simulator script for randomly simulating neurons on a dish is also present.
 
 2. Cellpose
    
