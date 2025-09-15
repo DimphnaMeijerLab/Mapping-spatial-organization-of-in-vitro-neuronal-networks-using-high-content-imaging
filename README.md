@@ -1,6 +1,30 @@
 # Mapping-spatial-organization-of-in-vitro-neuronal-networks-using-high-content-imaging
-Here we collect all the scripts use in: Mapping spatial organization of in vitro neuronal networks using high-content imaging. These scripts allow the analysis of complete neuronal network in vitro. The folder contain four folders, and each folder contains main and functions used in the analysis. 
-1. Analysis: here you can find the MATLAB scripts for the analysis of the stiched wells. The framework called Modular Image Analysis (MIA). MIA is divided into modules and uses parallel programming to analyze multiple wells simultaneously. The Nuclei Analysis module was used to differentiate between neuronal and non-neuronal cells. The Distance Analysis module performed a spatial analysis of the distribution of cells in the wells.
-2. Cellpose: here you can find the folder NetworkDection where the segmentaion of the stiched wells is performed. The model used for the segmation is present. The model allow the segmentation of dapi and AnkG for identifing neurons wth the axonal initial segment. In the folder AIS_analysis, there is the matlab script for analysisng the axonal initial segmetn properties in the complete well.
-3. Diameter_analysis: here the python script used for calculate the diamter of each cells (from the Analysis)
-4. Stiching: here the set of macro from ImageJ used fot the stiching of the tiles in the complete well. 
+This repository contains all the scripts used in the project “Mapping Spatial Organization of In Vitro Neuronal Networks Using High-Content Imaging.” These scripts enable the analysis of complete in vitro neuronal networks.
+
+The repository is organized into four main folders:
+
+1. Analysis
+
+Contains MATLAB scripts for the analysis of stitched wells using the Modular Image Analysis (MIA) framework.
+
+MIA is divided into modules and uses parallel programming to analyze multiple wells simultaneously.
+
+Nuclei Analysis module: differentiates between neuronal and non-neuronal cells.
+
+Distance Analysis module: performs spatial analysis of cell distribution in the wells.
+
+2. Cellpose
+
+Contains scripts and models for segmentation of stitched wells.
+
+NetworkDetection: segmentation of stitched wells using a pre-trained model (included). The model allows segmentation of DAPI and AnkG, enabling identification of neurons with axonal initial segments.
+
+AIS_analysis: MATLAB script for analyzing axonal initial segment properties across the complete well.
+
+3. Diameter_analysis
+
+Contains Python scripts for calculating the diameter of each cell (based on the outputs from the Analysis folder).
+
+4. Stitching
+
+Contains ImageJ macros used for stitching tiled images into complete wells.
