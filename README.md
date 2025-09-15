@@ -18,7 +18,7 @@ AIS_analysis: MATLAB script for analyzing axonal initial segment properties acro
 
 3. Diameter_analysis
    
-Contains Python scripts for calculating the diameter of each cell (based on the outputs from the Analysis folder).
+Contains Python script for calculating the diameter of each cell (based on the outputs from the Analysis folder).
 
 4. Stitching
    
